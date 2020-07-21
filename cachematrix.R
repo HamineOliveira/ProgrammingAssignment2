@@ -26,3 +26,8 @@ cacheSolve <- function(x, ...) {
   x$setinverse(i)
   i
 }
+
+##Vendo se deu certo - Testing
+M<-matrix(c(3,4,6,4),2,2)
+m <- makeCacheMatrix(M)
+cacheSolve(m)
